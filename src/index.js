@@ -1,13 +1,30 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+/*
+import App from './App';
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App />,
   </React.StrictMode>,
+  document.getElementById('root')
+);
+*/
+
+// 使用export default命令，为模块指定默认输出，这样就不需要知道所要加载模块的变量名
+import FunctionalComponent from './compF';
+// 通过export方式导出，在导入时要加{ }，export default则不需要
+import {ClassComponent} from './compC';
+import {MyApp, Welcome} from './sideEffect';
+
+
+ReactDOM.render (
+  // <FunctionalComponent />,
+  // < ClassComponent />,
+  <Welcome name="张三" />,
+  // <MyApp />,
   document.getElementById('root')
 );
 
