@@ -18,13 +18,14 @@ import FunctionalComponent from './compF';
 // 通过export方式导出，在导入时要加{ }，export default则不需要
 import {ClassComponent} from './compC';
 import {MyApp, Welcome} from './sideEffect';
-
+import {RFast} from './fast/first';
 
 ReactDOM.render (
   // <FunctionalComponent />,
   // < ClassComponent />,
-  <Welcome name="张三" />,
+  // <Welcome name="张三" />,
   // <MyApp />,
+    <RFast />,
   document.getElementById('root')
 );
 
