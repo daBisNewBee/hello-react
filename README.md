@@ -1,3 +1,9 @@
+# Pdf.js
+- 引入，安装 `npm install pdfjs-dist`
+- pdf link 不使用 `https://pdfview002.blob.core.windows.net/test/pdf/annoNew.pdf` 因为 CORS 问题
+- 注意位置: public/annoNew.pdf
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

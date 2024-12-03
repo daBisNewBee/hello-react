@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import PDFViewer from './PDFViewer';
+import PDFViewer2 from './PDFViewer_next_previous';
 
 /*
 import App from './App';
@@ -27,7 +28,8 @@ ReactDOM.render (
   // <Welcome name="张三" />,
   // <MyApp />,
     // <RFast />,
-    <PDFViewer url="/annoNew.pdf"/>,
+    // <PDFViewer url="/annoNew.pdf"/>,
+    <PDFViewer2 url="/annoNew.pdf"/>,
   document.getElementById('root')
 );
 
