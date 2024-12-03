@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
+import PDFViewer from './PDFViewer';
 
 /*
 import App from './App';
@@ -25,7 +26,8 @@ ReactDOM.render (
   // < ClassComponent />,
   // <Welcome name="张三" />,
   // <MyApp />,
-    <RFast />,
+    // <RFast />,
+    <PDFViewer url="/annoNew.pdf"/>,
   document.getElementById('root')
 );
 
